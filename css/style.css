@@ -1,0 +1,47 @@
+body {
+	background-color: #e6e6e6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+section {
+	border: 0.2em solid transparent;
+	border-radius: 0.25em;
+	padding: 0.5em;
+	background-color: rgba(0, 0, 0, 0.8);
+  width: 10em;
+	margin: auto;
+}
+
+span {
+	box-sizing: border-box;
+	border-radius: 0.1em;
+	display: block;
+	color: #fff;
+	border: 0.02em solid #fff;
+	font-size: 2em;
+	padding: 0.25em;
+	text-align: right;
+	margin-bottom: 0.2em;
+	}
+
+button {
+	cursor: pointer;
+	border-radius: 0.1em;
+	border: 0.1em solid transparent;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 0.1em;
+	height: 2.5em;
+	width: 2.5em;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+button[value="ce"] {
+	background-color: red;
+}
